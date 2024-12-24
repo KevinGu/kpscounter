@@ -1,0 +1,37 @@
+{
+  "name": "kpscounter",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx -c .eslintrc.json --fix"
+  },
+  "dependencies": {
+    "@nextui-org/react": "^2.6.10",
+    "@react-aria/ssr": "^3.9.7",
+    "@react-aria/visually-hidden": "^3.8.18",
+    "clsx": "^2.1.1",
+    "echarts": "^5.5.1",
+    "echarts-for-react": "^3.0.2",
+    "framer-motion": "^11.15.0",
+    "intl-messageformat": "^10.7.10",
+    "next": "^15.1.2",
+    "next-themes": "^0.4.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.0.3",
+    "postcss": "^8.4.49",
+    "tailwind-variants": "^0.1.20",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
